@@ -1,0 +1,17 @@
+{
+  "name": "selenium-login",
+  "version": "1.0.0",
+  "description": "selenium login",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "npx mocha login.spec.js",
+    "testdummy": "npx mocha login2.spec.js --timeout 10000"
+  },
+  "author": "abelitonahason",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^10.4.0",
+    "selenium-webdriver": "^4.20.0"
+  }
+}
